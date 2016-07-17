@@ -26,9 +26,9 @@
     
     CGFloat decalage = 10.0;
     
-    float width = (self.frame.size.width - 5 * decalage) / 4;
+    float size = self.frame.size.height - 2 * decalage;
     
-    self.thirdButton = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.size.width - decalage - width, 0.0, width, self.frame.size.height)];
+    self.thirdButton = [[UIButton alloc] initWithFrame:CGRectMake(self.frame.size.width - decalage - size - 50.0, decalage, size + 50.0, size)];
     
     self.thirdButton.imageView.frame = CGRectMake(0, 0, self.thirdButton.frame.size.width, self.thirdButton.frame.size.height);
     
@@ -36,7 +36,7 @@
     
     [self.thirdButton setImage:[UIImage imageNamed:@"etoile3.png"] forState:UIControlStateNormal];
     
-    self.secondButton = [[UIButton alloc] initWithFrame:CGRectMake(self.thirdButton.frame.origin.x - decalage - self.thirdButton.frame.size.width, 0.0, self.thirdButton.frame.size.width, self.thirdButton.frame.size.height)];
+    self.secondButton = [[UIButton alloc] initWithFrame:CGRectMake(self.thirdButton.frame.origin.x - decalage - size - 25.0, self.thirdButton.frame.origin.y, size + 25.0, size)];
     
     self.secondButton.imageView.frame = CGRectMake(0, 0, self.secondButton.frame.size.width, self.secondButton.frame.size.height);
     
@@ -44,7 +44,7 @@
     
     [self.secondButton setImage:[UIImage imageNamed:@"etoile2.png"] forState:UIControlStateNormal];
     
-    self.firstButton = [[UIButton alloc] initWithFrame:CGRectMake(self.secondButton.frame.origin.x - decalage - self.secondButton.frame.size.width, 0.0, self.secondButton.frame.size.width, self.secondButton.frame.size.height)];
+    self.firstButton = [[UIButton alloc] initWithFrame:CGRectMake(self.secondButton.frame.origin.x - decalage - size, self.secondButton.frame.origin.y, size, size)];
     
     self.firstButton.imageView.frame = CGRectMake(0, 0, self.firstButton.frame.size.width, self.firstButton.frame.size.height);
     
