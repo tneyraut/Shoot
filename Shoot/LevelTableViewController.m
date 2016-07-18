@@ -20,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    
     self.navigationController.navigationBar.hidden = NO;
     
     [self.tableView registerClass:[TableViewCellWithThreeButtons class] forCellReuseIdentifier:@"cell"];

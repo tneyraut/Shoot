@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E853185E1A54781A009B4338 /* In The End.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E853185D1A54781A009B4338 /* In The End.m4a */; };
 		E8715C501A514BA70090D17C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8715C4F1A514BA70090D17C /* main.m */; };
 		E8715C531A514BA70090D17C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8715C521A514BA70090D17C /* AppDelegate.m */; };
 		E8715C561A514BA80090D17C /* Shoot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8715C541A514BA80090D17C /* Shoot.xcdatamodeld */; };
@@ -15,6 +14,8 @@
 		E8715C5E1A514BA80090D17C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8715C5D1A514BA80090D17C /* Images.xcassets */; };
 		E8715C611A514BA80090D17C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8715C5F1A514BA80090D17C /* LaunchScreen.xib */; };
 		E8715C6D1A514BA80090D17C /* ShootTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8715C6C1A514BA80090D17C /* ShootTests.m */; };
+		E8B7836D1D3CBEC6002E5CEE /* In The End.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E8B7836C1D3CBEC6002E5CEE /* In The End.m4a */; };
+		E8B7836F1D3CBFD0002E5CEE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8B7836E1D3CBFD0002E5CEE /* Default-568h@2x.png */; };
 		E8CE4D631D1030DE00FA8321 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CE4D621D1030DE00FA8321 /* GameViewController.m */; };
 		E8CE4D661D104FB600FA8321 /* Ennemi.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CE4D651D104FB600FA8321 /* Ennemi.m */; };
 		E8EDCD841D0D5D3400DEDD78 /* LevelTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EDCD831D0D5D3400DEDD78 /* LevelTableViewController.m */; };
@@ -32,7 +33,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E853185D1A54781A009B4338 /* In The End.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "In The End.m4a"; sourceTree = "<group>"; };
 		E8715C4A1A514BA70090D17C /* Shoot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shoot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8715C4E1A514BA70090D17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8715C4F1A514BA70090D17C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +45,8 @@
 		E8715C661A514BA80090D17C /* ShootTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShootTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8715C6B1A514BA80090D17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8715C6C1A514BA80090D17C /* ShootTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShootTests.m; sourceTree = "<group>"; };
+		E8B7836C1D3CBEC6002E5CEE /* In The End.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "In The End.m4a"; sourceTree = "<group>"; };
+		E8B7836E1D3CBFD0002E5CEE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E8CE4D611D1030DE00FA8321 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		E8CE4D621D1030DE00FA8321 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		E8CE4D641D104FB600FA8321 /* Ennemi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ennemi.h; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		E8715C411A514BA70090D17C = {
 			isa = PBXGroup;
 			children = (
+				E8B7836E1D3CBFD0002E5CEE /* Default-568h@2x.png */,
 				E8715C4C1A514BA70090D17C /* Shoot */,
 				E8715C691A514BA80090D17C /* ShootTests */,
 				E8715C4B1A514BA70090D17C /* Products */,
@@ -94,6 +97,7 @@
 		E8715C4C1A514BA70090D17C /* Shoot */ = {
 			isa = PBXGroup;
 			children = (
+				E8B7836C1D3CBEC6002E5CEE /* In The End.m4a */,
 				E8715C511A514BA70090D17C /* AppDelegate.h */,
 				E8715C521A514BA70090D17C /* AppDelegate.m */,
 				E8EDCD821D0D5D3400DEDD78 /* LevelTableViewController.h */,
@@ -116,7 +120,6 @@
 		E8715C4D1A514BA70090D17C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E853185D1A54781A009B4338 /* In The End.m4a */,
 				E8715C4E1A514BA70090D17C /* Info.plist */,
 				E8715C4F1A514BA70090D17C /* main.m */,
 			);
@@ -184,7 +187,7 @@
 		E8715C421A514BA70090D17C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Thomas Mac";
 				TargetAttributes = {
 					E8715C491A514BA70090D17C = {
@@ -222,8 +225,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8715C5C1A514BA80090D17C /* Main.storyboard in Resources */,
-				E853185E1A54781A009B4338 /* In The End.m4a in Resources */,
+				E8B7836D1D3CBEC6002E5CEE /* In The End.m4a in Resources */,
 				E8715C611A514BA80090D17C /* LaunchScreen.xib in Resources */,
+				E8B7836F1D3CBFD0002E5CEE /* Default-568h@2x.png in Resources */,
 				E8715C5E1A514BA80090D17C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +314,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -377,6 +382,7 @@
 				INFOPLIST_FILE = Shoot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shoot.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -391,6 +397,7 @@
 				INFOPLIST_FILE = Shoot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shoot.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -410,6 +417,7 @@
 				);
 				INFOPLIST_FILE = ShootTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shoot.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoot.app/Shoot";
 			};
@@ -425,6 +433,7 @@
 				);
 				INFOPLIST_FILE = ShootTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shoot.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoot.app/Shoot";
 			};
